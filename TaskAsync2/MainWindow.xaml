@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaskAsync2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="417" Width="525">
+    <Grid Height="373" VerticalAlignment="Top">
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="23" Margin="10,80,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="lblFirstName" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="FirstName"/>
+        <Button x:Name="btnRead" Content="Read" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="75" Click="btnRead_Click"/>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top" Width="75" Click="btnCreate_Click"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="23" Margin="135,80,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAge" HorizontalAlignment="Left" Height="23" Margin="260,80,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="lblLastName" HorizontalAlignment="Left" Margin="98,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="LastName"/>
+        <TextBlock x:Name="lblAge" HorizontalAlignment="Left" Margin="179,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Age" RenderTransformOrigin="1.396,0.812"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="90,117,0,0" VerticalAlignment="Top" Width="75" Click="btnUpdate_Click"/>
+        <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Margin="170,117,0,0" VerticalAlignment="Top" Width="75" Click="btnRemove_Click"/>
+        <TextBox x:Name="txtLog" HorizontalAlignment="Left" Height="191" Margin="10,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="497"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="15,151,0,0" TextWrapping="Wrap" Text="Log" VerticalAlignment="Top"/>
     </Grid>
 </Window>
